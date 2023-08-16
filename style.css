@@ -1,16 +1,23 @@
 body {
-    background-color: darkred;
+    background-color: rgb(48, 48, 67);
 }
 
 h1 {
-    color: pink;
-    font-family: Cambria;
+    color: white;
+    text-shadow: 10px grey;
+font-family: 'Barriecito', cursive;
     text-align: center;
     font-size: 80px;
 }
 
+h3 {
+    color:white;
+    font-family:arial;
+    text-align: center;
+}
+
 canvas {
-    border: solid 8px pink;
+    border: solid 8px grey;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
@@ -21,11 +28,24 @@ canvas {
 }
 
 .instructionsbox {
-    color:pink;
+    color:white;
     font-family:Arial;
     text-align: center;
 }
 
 h4 {
     font-size: 40px;
+}
+
+.levels {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(170, 171, 188);
+}
+
+.levels a {
+
+    color: red;
+    font-size: 50px;
+    text-decoration: none;
 }
